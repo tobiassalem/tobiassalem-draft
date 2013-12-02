@@ -1,0 +1,129 @@
+  /* **** Tags ****  */
+body  {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin: 0px;
+	background:#ffffff url("background.jpg") repeat-x; 
+}
+p, font, th, td {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 11px;
+}
+input, textarea, select, button {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #ffffff;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000; 
+}
+h1,h2, h3, h4, h5, h6  {
+    	font-family: Verdana, Arial, Helvetica, sans-serif;
+    	font-size: 16px;
+    	font-weight: bold;
+}
+a, a:hover, a:active, a:visited {
+	font-weight: bold;
+	color: #363988;
+	text-decoration: underline;
+}
+/* **** Main divs ****  */
+#container {
+	position: absolute;
+	margin-top: 0px;
+}
+#header {
+	width: 100%;
+	margin-bottom: 0px;
+}
+#banner {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 175px;
+}	
+#logo {
+	display: none;
+}
+#logo h1 {
+	color: #FADD1D;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+}
+#content {
+	position: absolute;
+	top: 209px;
+	left: 20px;
+	width: 705px;
+	color: #000000;
+	padding-bottom: 30px;
+}
+#content h1#title {
+	display: none
+}
+#contentbody {
+	color: #000000;
+	background-color: #ffffff;
+	border: 1px solid #363988;
+	padding: 3px;
+}
+#contentbody p{
+	margin-top: 0px;
+}
+#extradiv1, #extradiv2 {
+	text-transform: none;
+}
+/* ************* Menu *******************  */
+#menu {
+	top: 180px;
+	left: 20px;
+	width: 707px;
+}
+#menu ul {
+	margin: 2px;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 0;
+	width: 99px;
+}
+#menu ul ul li, #menu h2 {
+	font: bold 11px/16px verdana, arial, helvetica, sans-serif;
+	border: 2px solid #363988;
+	background-color: #ffffff;
+}
+#menu h2 a {
+	font-weight: bold;
+}
+#menu ul ul li {
+	border-top: none;
+}
+#menu h2 {
+	color: #363988;
+	background-color: #ffffff;
+}
+#menu a {
+	font: normal 11px/16px verdana, arial, helvetica, sans-serif;
+	color: #363988;
+	text-decoration: none;
+	width: 100%;
+}
+#menu a:hover {
+	color: #000000;
+}
+#menu li a.menuunpublished, #menu li a.menuunpublished:hover, #menu li a.menuunpublished:visited, #menu li a.menuunpublished:active {
+	color: red;
+}
+#menu li a.hide, #menu li a.hide:hover, #menu li a.hide:visited, #menu li a.hide:active {
+	color: green;
+}
+#menu #activecategory {
+	text-transform:none;
+}
+#menu #activelink {
+	text-transform:none;
+}  
